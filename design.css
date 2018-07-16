@@ -1,14 +1,14 @@
 @font-face
     {
-        font-family:"Parry Hotter";
-        src: url('https://raw.githubusercontent.com/vanshikadarbari/tribute-page/master/ParryHotter.ttf')
+        font-family:"ParryHotter";
+        src: url('https://bitbucket.org/vanshika1/tribute-page/raw/master/ParryHotter.ttf')
         format('truetype');
         
 }
 @font-face
 {
-    font-family:"ParchMent MF";
-    src:url('https://raw.githubusercontent.com/vanshikadarbari/tribute-page/master/Parchment MF.ttf')
+    font-family:"ParchMent%20MF";
+    src:url('https://bitbucket.org/vanshika1/tribute-page/raw/master/Parchment%20MF.ttf')
         format('truetype');
 }
 
