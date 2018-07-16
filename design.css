@@ -1,0 +1,136 @@
+@font-face
+    {
+        font-family:"Parry Hotter";
+        src: url('https://raw.githubusercontent.com/vanshikadarbari/tribute-page/master/ParryHotter.ttf')
+        format('truetype');
+        
+}
+@font-face
+{
+    font-family:"ParchMent MF";
+    src:url('https://raw.githubusercontent.com/vanshikadarbari/tribute-page/master/Parchment MF.ttf')
+        format('truetype');
+}
+
+
+
+header h1
+{
+    text-align: center;
+    margin-left: 20%;
+    color: goldenrod;
+    font-family: Parry Hotter;
+    font-size: 500%;
+    /*metallic effect*/
+    text-shadow: 0 0 35% rgba(0, 0, 0, 1);
+    font-weight: 500;
+    
+}
+
+body
+{
+    background-image:url('http://i.imgur.com/fYF1f8G.jpg'); 
+}
+
+
+.text p
+{
+   
+    font-family:Parchment MF;
+    font-size: 146%;
+    font-weight: bold;
+    width:38%;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    background-image:url('http://i.imgur.com/SHtdL2c.jpg');
+    background-size:110% 100%;
+    padding: 8% 2% 5% 2%;
+  
+    
+}
+
+.text a
+{
+    font-family: Parchment mf;
+    color:green;
+    
+}
+
+.text a:hover
+{
+    text-decoration: none;
+}
+
+#date
+{
+    color:darkred;
+}
+
+header h1
+{
+   /* the shimmer magic */
+  background: -webkit-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
+  background: -moz-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
+  background: gradient(linear,left top,right top,from(#222),to(#222),color-stop(.5,#fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  -webkit-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-ms-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
